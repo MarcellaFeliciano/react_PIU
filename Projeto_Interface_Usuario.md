@@ -77,7 +77,7 @@ export default App
 
 ```
 
-###Index.html
+### Index.html
 ```jsx
 <!doctype html>
 <html lang="en">
