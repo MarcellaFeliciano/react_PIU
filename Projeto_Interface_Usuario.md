@@ -16,6 +16,7 @@ createRoot(document.getElementById('root')).render(
 ```
 
 #### MyFirstComponent.jsx
+```jsx
 function MyfirstComponent(){
     const nome = "Marcella"
 
@@ -33,8 +34,9 @@ function MyfirstComponent(){
 }
 
 export default MyfirstComponent
-
+```
 #### App.jsx
+```jsx
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -73,10 +75,10 @@ function App() {
 
 export default App
 
-
+```
 
 ###Index.html
-
+```jsx
 <!doctype html>
 <html lang="en">
   <head>
@@ -90,3 +92,4 @@ export default App
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+```
