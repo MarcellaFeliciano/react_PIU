@@ -1,4 +1,85 @@
 # Conteúdo de Interface de Usuário
+
+## Observações
+``
+donwload node js - ode -v - comand prompt (prompt do windowss) + npm -v
+react spa - simple page aplication - 
+
+criar projetos toda aula / aprender os comando basicos de react / fluxo de trablaho / adicionar no repositório
+
+create-react app
+nps
+
+-> npm create vite@latest - criar um proheto vite
+
+nome do projeto  - react - javascript - cd nome do projeto - npm install (PROJETO CRIADO) - (abrir o projeto no vscode) 
+
+-> npm run dev - aparecer
+
+monitorar o comprotamento do usuario na pagina
+
+dom - estrutura da pagina web ( toda vida que a pagina é recarregada a estrutira é recriada)
+
+criar um dom virtual, o react atualiza apenas o elemento que precisa e não a pagina inteira
+
+node_modules - dependencias para rodar o projeto  - está dentro do gitignore - 
+public = em teoria é reservado para arquivos estativos - não é muito utilizado na pratica
+src = static
+
+index.html = o react vai pegar a div e adiconar os elementos/projeto nesse conteiner
+script = /src/main.jsx - type modelu? 
+
+
+main.jsx - arquivo principal
+
+importação de pacotes - do react e react-dom
+
+createRoot=vai processar o react
+ resgata o elemento e indica que nele será adiconado os componentes
+ render - metodo para renderizar
+ stricmode - nos ajudar com a programação
+
+ <App /> = é um componente - modularizar a intercade - reutilização de elementos
+ - parece uma tag html porem não é
+
+
+ bloco de importações
+
+ função App - mesmo de escopo de declaraçẽos do js
+
+ declarar funçoes internas
+
+ return = quando chamar o compodennete app ele retrona a estritira 
+
+ estrutura - jsx - sintaxe de utilização do react - html e js simutaneamente
+ return (
+    <>
+    </>
+ )
+
+ -> TODO COMPODENTE COMEÇA COM A LETRA MAISCULA - isso diferencia uma tag de um componente -
+
+
+ elementos entre chaves = elemenntos js (variaveis, funções, operações)
+ todo return tem que estar encapsulado em uma tag - estrutura de container
+  - desfragmentação - usar a tag vazia <> = encapsula
+  props
+
+  className - reserva o nome para dar a classe css
+
+os elementos são mostrados na pagina com elementos html - string
+
+para aparecer na tela = cria o componente - export default nome do componenete -  adiciona o componnete = <MyFirstComponent/> no arquivo jsx
+-> não é recomendado chamar os elementos no main.jsx - por padrão aduiciona os componentes no app.jsx
+
+hierarqui ade componnetes - posso ter componentes dentro de componentes - o App é o principal
+
+sintaxe de funções de js !
+tentar minimizar , trabalhar com eventos
+
+``
+
+
 ### main.jsx
 ```jsx
 import { StrictMode } from 'react'
