@@ -174,3 +174,60 @@ export default App
   </body>
 </html>
 ```
+import "./Header.css"
+
+
+
+function Header(){
+    const title = "Programação Orientada a Serviço"
+
+    function Clicar(){
+            let texto = document.getElementById("aula")
+            texto.innerHTML = "Aula 2 de React"
+            
+        }
+ 
+    return (
+        <>
+        <div className="header">
+            <h3>{title}</h3>
+            <div className="nav">
+                <button onClick={Clicar}>Aulas de PIU</button>
+            </div>
+        </div>
+        <div>
+            <h5 id="aula"></h5>
+        </div>
+        </>
+    )
+}
+export default Header
+
+import "./Escopo.css"
+
+function Escopo(){
+    const label = 'Clique aqui!'
+    // função interna 
+    function handleClick(){
+        return(
+            alert("alerta")
+        )
+    }
+    return(
+        <>
+        <div>
+
+            <h2>Teste de componentes</h2>
+            </div>
+        <div>
+            <button onClick={()=>console.log("Você clicou aqui")} >{label}</button>
+        </div>
+        <div>
+            <button onClick={handleClick}>{label}</button>
+        </div>
+        </>
+        
+    )
+}
+
+export default Escopo
