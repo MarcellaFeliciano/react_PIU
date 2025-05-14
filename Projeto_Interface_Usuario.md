@@ -11,7 +11,9 @@ let [valor, setValor] = useState(0)
 
 ```
 ## Observações
-``` 
+```
+
+ativ - ver a doccumentação oficial - quick start até a proxima semana
 donwload node js - ode -v - comand prompt (prompt do windowss) + npm -v
 react spa - simple page aplication - 
 
