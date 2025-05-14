@@ -77,6 +77,10 @@ hierarqui ade componnetes - posso ter componentes dentro de componentes - o App 
 sintaxe de funções de js !
 tentar minimizar , trabalhar com eventos
 
+------
+
+hookes são 
+
 ```
 
 
