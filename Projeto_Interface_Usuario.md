@@ -2,10 +2,11 @@
 #### Projeto => npm create vite@latest - nome do projeto  - react - javascript - cd nome do projeto - npm install (PROJETO CRIADO) - (abrir o projeto no vscode) - npm run dev - aparecer
 
 ### Conteúdo 
-```
+```jsx
 hooks - próprios do react
  - useState
 import { useState } from "react"
+//variavel valor e a função que vai manipular ela é a setValor / recebe como valor inicializado pelo valor 0
 let [valor, setValor] = useState(0)
 
 ```
