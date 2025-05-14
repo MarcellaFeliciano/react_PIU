@@ -1,7 +1,19 @@
 # Conteúdo de Interface de Usuário
+#### Projeto => npm create vite@latest - nome do projeto  - react - javascript - cd nome do projeto - npm install (PROJETO CRIADO) - (abrir o projeto no vscode) - npm run dev - aparecer
 
+### Conteúdo 
+```jsx
+hooks - próprios do react
+ - useState
+import { useState } from "react"
+//variavel valor e a função que vai manipular ela é a setValor / recebe como valor inicializado pelo valor 0
+let [valor, setValor] = useState(0)
+
+```
 ## Observações
-``` 
+```
+
+ativ - ver a doccumentação oficial - quick start até a proxima semana
 donwload node js - ode -v - comand prompt (prompt do windowss) + npm -v
 react spa - simple page aplication - 
 
@@ -76,6 +88,9 @@ hierarqui ade componnetes - posso ter componentes dentro de componentes - o App 
 
 sintaxe de funções de js !
 tentar minimizar , trabalhar com eventos
+
+------
+
 
 ```
 
