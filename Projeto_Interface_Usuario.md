@@ -1,5 +1,14 @@
 # Conteúdo de Interface de Usuário
+#### Projeto => npm create vite@latest - nome do projeto  - react - javascript - cd nome do projeto - npm install (PROJETO CRIADO) - (abrir o projeto no vscode) - npm run dev - aparecer
 
+### Conteúdo 
+```
+hooks - próprios do react
+ - useState
+import { useState } from "react"
+let [valor, setValor] = useState(0)
+
+```
 ## Observações
 ``` 
 donwload node js - ode -v - comand prompt (prompt do windowss) + npm -v
@@ -79,7 +88,6 @@ tentar minimizar , trabalhar com eventos
 
 ------
 
-hookes são 
 
 ```
 
