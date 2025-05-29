@@ -2,12 +2,14 @@
 
 import "./Card.css";
 
-export default function Card({ title, img }) {
+
+export default function Card({ name, image, onClick }) {
     return (
-        <div className="card">
+        <div className="card" onClick={onClick}>
+
             <figure>
-                <img src={img} alt={title} />
-                <figcaption>{title}</figcaption>
+                <img src={image} alt={name} />
+                <figcaption>{name}</figcaption>
             </figure>
         </div>
     );
