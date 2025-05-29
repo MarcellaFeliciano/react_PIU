@@ -1,0 +1,65 @@
+
+/* Estilos para o header */
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    width: 1000px;
+    height: 20%;
+
+}
+
+/* Estilos para o logo */
+.logo_nav {
+    font-size: 24px;
+    font-weight: bold;
+    width: 30%;
+    display: inline;
+
+}
+
+
+/* Estilos para os botões */
+.navegation button {
+    background-color: transparent; /* Fundo transparente */
+    color: white; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s; /* Transição para o fundo */
+}
+
+.navegation button:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo ao passar o mouse */
+}
+
+/* Estilos para o dropdown */
+.dropdown {
+    position: absolute;
+    top: 80px; /* Posiciona abaixo do botão */
+    left: 70%;
+    background-color: white; /* Cor de fundo do dropdown */
+    color: black; /* Cor do texto */
+    border: 1px solid #ccc; /* Borda */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+    z-index: 1; /* Coloca em cima de outros elementos */
+}
+
+/* Estilos para os itens do dropdown */
+.dropdown ul {
+    list-style: none; /* Remove marcadores */
+    padding: 0; /* Remove preenchimento */
+    margin: 0; /* Remove margem */
+}
+
+.dropdown li {
+    padding: 10px 15px; /* Espaçamento interno */
+}
+
+.dropdown li:hover {
+    background-color: #f0f0f0; /* Fundo ao passar o mouse */
+}
