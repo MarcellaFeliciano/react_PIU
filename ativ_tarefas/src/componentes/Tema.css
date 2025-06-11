@@ -19,3 +19,15 @@ button{
   transition: all 0.3s ease;
 }
 
+
+.green {
+    background-color: lightgreen;
+}
+
+.red {
+    background-color: lightcoral;
+}
+
+.padrao {
+    background-color:lightskyblue;
+}
