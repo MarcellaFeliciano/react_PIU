@@ -1,0 +1,29 @@
+
+
+.normal {
+    width:190px;
+    height: 60px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid lightpink;
+    text-align: center;
+}
+
+
+.maior {
+    width:260px;
+    height: 100px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid lightpink;
+    text-align: center;
+}
+
+.menor {
+    width:100px;
+    height: 40px;
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid lightpink;
+    text-align: center;
+}

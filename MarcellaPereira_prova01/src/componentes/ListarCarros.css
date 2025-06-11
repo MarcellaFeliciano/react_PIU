@@ -1,0 +1,9 @@
+
+
+.div_listar{
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+    width: 100%;
+    gap:10px;
+}
