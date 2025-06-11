@@ -9,7 +9,6 @@ function App() {
   
   return (
     <>
-      <h2>oi</h2>
       <Tema>
         <Dashboard tarefas={lista_tarefas}/>
       </Tema>
