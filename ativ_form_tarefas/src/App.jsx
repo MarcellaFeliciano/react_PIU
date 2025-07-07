@@ -8,7 +8,7 @@ function App() {
   
   return (
     <>
-      <h2>LIsta de tarefas</h2>
+      <h2>Lista de tarefas</h2>
       <Formulario/>
       
       

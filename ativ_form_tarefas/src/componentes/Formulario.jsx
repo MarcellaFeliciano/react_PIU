@@ -23,20 +23,23 @@ export default function Formulario(){
     return(
 
         <div>
-            <form>
+            <form className="formTarefa">
 
                 <span>Nome da atividade</span>
                 <input onChange={handleTarefas} type="text" placeholder="Titulo da atividade" value={tarefa}></input>
 
-                <input onClick={submitTarefas} type="submit" value='Enviar' />
+                <input className="bt_enviar" onClick={submitTarefas} type="submit" value='Enviar' />
             </form>
             <button onClick={handleClear}>Reset</button>
 
             <div>
-                <ul>
+                <div className="tarefa">
                     {tarefas.map((item) =>
-                    <li>{item}</li>)}
-                </ul>
+                    <div>
+                        <h5>Tarefa: {item}</h5> 
+                        <h6>Status:</h6>
+                    </div>)}
+                </div>
             </div>
         </div>
     )
