@@ -9,6 +9,13 @@ import { useState } from "react"
 //variavel valor e a função que vai manipular ela é a setValor / recebe como valor inicializado pelo valor 0
 let [valor, setValor] = useState(0)
 
+ - useEffect
+ useEffect é um hook do React que permite executar efeitos colaterais em componentes funcionais.
+
+  useEffect(() => {
+    document.title = `Você clicou ${contador} vezes`;
+  }, [contador]); // Executa o efeito quando 'contador' muda
+
 ```
 ## Observações
 ```
