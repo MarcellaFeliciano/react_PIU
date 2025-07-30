@@ -1,0 +1,39 @@
+
+.div_dados {
+    margin-left: 30px;    margin: 10px;
+    margin-top: 70px;
+    height: 360px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+button {
+    background-color: rgb(156, 226, 156);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 20px;
+    border: 1px solid black;
+  }
+  
+select {
+    padding: 6px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 4px;
+  
+  }
