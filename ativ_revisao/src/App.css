@@ -1,0 +1,17 @@
+
+
+#root {
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+
+}
+
+.conteudo {
+
+  width: 1000px;
+  height: 900px;
+  border: 2px solid black;
+
+
+}
